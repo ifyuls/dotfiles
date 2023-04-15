@@ -1,0 +1,22 @@
+#设置vi模式
+set editing-mode vi
+
+#设置vi模式的提示
+set show-mode-in-prompt on
+set vi-cmd-mode-string "\1\e[2 q\2"
+set vi-ins-mode-string "\1\e[6 q\2"
+
+#设置颜色
+set colored-stats on
+
+#设置自动完成忽略大小写
+set completion-ignore-case on
+
+#设置通用前缀最大字符数
+set completion-prefix-display-length 3
+
+#设置每个补全
+set mark-symlinked-directories on
+
+#设置多个可能补全立即列出
+set show-all-if-ambiguous on

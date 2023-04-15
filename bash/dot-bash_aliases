@@ -1,0 +1,6 @@
+alias la='ls -a'
+alias ll='ls -l'
+alias update='sudo apt update'
+alias install='sudo apt install'
+alias stowdf='stow --dotfile'
+alias proxy='source ~/program/scripts/proxy.sh'
